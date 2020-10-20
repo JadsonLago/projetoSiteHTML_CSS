@@ -1,5 +1,20 @@
 /*geral*/
 body, p, h1, h2, input, textarea{
     margin: 0;
-
+    font-family: 'Roboto';
 }
+/*navbar*/
+#navbar{
+    background-color: red;
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+}
+
+h2{
+    font-size: 30px;
+}
+#navbar h2, #navbar ul, #navbar-list li{
+    display: inline-block;
+} 
+
